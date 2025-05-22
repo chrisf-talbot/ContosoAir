@@ -4,12 +4,12 @@
 # https://aka.ms/yaml
 
 trigger:
-- none
+  - none
 
 resources:
  pipelines:
   - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
-    source: Student1-51515356.ContosoAir # name of the pipeline that produces the artifact
+    source: chrisf-talbot.ContosoAir # name of the pipeline that produces the artifact
     trigger:
      branches:
       include:
